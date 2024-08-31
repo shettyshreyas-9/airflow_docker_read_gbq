@@ -1176,3 +1176,439 @@ File Path                             PID  Runtime      # DAGs    # Errors  Last
 /opt/airflow/dags/read_gbq_data.py     64  0.00s             1           0  0.13s           2024-08-31T06:25:38                      10
 ================================================================================
 [2024-08-31T06:26:37.745+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T06:47:37.557+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T06:47:37.558+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T06:47:37.559+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T06:47:37.559+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T06:47:37.592+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T06:47:46.306+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     62  0.04s             0           0                                                   0
+================================================================================
+[2024-08-31T06:48:16.578+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     69  0.01s             1           0  0.16s           2024-08-31T06:47:46                      10
+================================================================================
+[2024-08-31T06:48:46.925+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     75  0.01s             1           0  0.11s           2024-08-31T06:48:16                      10
+================================================================================
+[2024-08-31T06:49:17.204+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     83  0.00s             1           0  0.11s           2024-08-31T06:48:47                      10
+================================================================================
+[2024-08-31T06:49:39.727+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T07:17:42.372+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T07:17:42.374+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T07:17:42.375+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T07:17:42.375+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T07:17:42.405+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T07:17:47.970+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     66  0.07s             0           0                                                   0
+================================================================================
+[2024-08-31T07:18:18.240+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     73  0.00s             1           0  0.25s           2024-08-31T07:17:48                      10
+================================================================================
+[2024-08-31T07:18:48.521+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     80  0.01s             1           0  0.10s           2024-08-31T07:18:18                      10
+================================================================================
+[2024-08-31T07:19:16.551+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T07:42:55.571+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T07:42:55.573+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T07:42:55.574+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T07:42:55.574+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T07:42:55.598+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T07:43:00.045+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     60  0.02s             0           0                                                   0
+================================================================================
+[2024-08-31T07:43:30.320+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     67  0.01s             1           0  0.14s           2024-08-31T07:43:00                      10
+================================================================================
+[2024-08-31T07:43:52.161+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T08:39:11.950+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T08:39:11.952+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T08:39:11.953+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T08:39:11.954+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T08:39:11.974+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T08:39:17.671+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     61  0.03s             0           0                                                   0
+================================================================================
+[2024-08-31T08:39:47.935+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     68  0.00s             1           0  0.14s           2024-08-31T08:39:17                      10
+================================================================================
+[2024-08-31T08:40:18.289+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     75  0.01s             1           0  0.10s           2024-08-31T08:39:48                      10
+================================================================================
+[2024-08-31T08:40:48.628+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     82  0.00s             1           0  0.10s           2024-08-31T08:40:18                      10
+================================================================================
+[2024-08-31T08:41:18.955+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     89  0.00s             1           0  0.09s           2024-08-31T08:40:48                      10
+================================================================================
+[2024-08-31T08:41:49.257+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     96  0.00s             1           0  0.09s           2024-08-31T08:41:19                      10
+================================================================================
+[2024-08-31T08:42:19.576+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    103  0.01s             1           0  0.13s           2024-08-31T08:41:49                      10
+================================================================================
+[2024-08-31T08:42:49.948+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    110  0.00s             1           0  0.15s           2024-08-31T08:42:19                      10
+================================================================================
+[2024-08-31T08:43:20.225+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    117  0.00s             1           0  0.10s           2024-08-31T08:42:50                      10
+================================================================================
+[2024-08-31T08:43:50.562+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    124  0.01s             1           0  0.10s           2024-08-31T08:43:20                      10
+================================================================================
+[2024-08-31T08:44:12.756+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T08:44:12.785+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T08:44:20.874+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    131  0.00s             1           0  0.11s           2024-08-31T08:43:50                      10
+================================================================================
+[2024-08-31T08:44:51.147+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    138  0.01s             1           0  0.10s           2024-08-31T08:44:20                      10
+================================================================================
+[2024-08-31T08:45:21.459+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    145  0.00s             1           0  0.15s           2024-08-31T08:44:51                      10
+================================================================================
+[2024-08-31T08:45:51.794+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    152  0.01s             1           0  0.12s           2024-08-31T08:45:21                      10
+================================================================================
+[2024-08-31T08:46:22.071+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    159  0.00s             1           0  0.16s           2024-08-31T08:45:51                      10
+================================================================================
+[2024-08-31T08:46:52.460+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    166  0.00s             1           0  0.12s           2024-08-31T08:46:22                      10
+================================================================================
+[2024-08-31T08:47:22.757+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    173  0.00s             1           0  0.10s           2024-08-31T08:46:52                      10
+================================================================================
+[2024-08-31T08:47:53.042+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    180  0.00s             1           0  0.11s           2024-08-31T08:47:22                      10
+================================================================================
+[2024-08-31T08:48:21.312+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T08:50:42.705+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T08:50:42.706+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T08:50:42.707+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T08:50:42.708+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T08:50:42.726+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T08:50:46.375+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     61  0.02s             0           0                                                   0
+================================================================================
+[2024-08-31T08:51:16.680+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     68  0.01s             1           0  0.12s           2024-08-31T08:50:46                      10
+================================================================================
+[2024-08-31T08:51:47.021+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     75  0.00s             1           0  0.10s           2024-08-31T08:51:16                      10
+================================================================================
+[2024-08-31T08:52:17.400+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     82  0.01s             1           0  0.10s           2024-08-31T08:51:47                      10
+================================================================================
+[2024-08-31T08:52:47.688+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     89  0.00s             1           0  0.12s           2024-08-31T08:52:17                      10
+================================================================================
+[2024-08-31T08:53:18.058+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     96  0.01s             1           0  0.12s           2024-08-31T08:52:47                      10
+================================================================================
+[2024-08-31T08:53:48.381+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    103  0.00s             1           0  0.10s           2024-08-31T08:53:18                      10
+================================================================================
+[2024-08-31T08:54:18.744+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    110  0.01s             1           0  0.08s           2024-08-31T08:53:48                      10
+================================================================================
+[2024-08-31T08:54:49.088+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    117  0.01s             1           0  0.09s           2024-08-31T08:54:18                      10
+================================================================================
+[2024-08-31T08:55:19.412+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    124  0.00s             1           0  0.10s           2024-08-31T08:54:49                      10
+================================================================================
+[2024-08-31T08:55:42.732+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T08:55:42.751+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T08:55:49.755+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py    132  0.00s             1           0  0.09s           2024-08-31T08:55:19                      10
+================================================================================
+[2024-08-31T08:56:11.036+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T17:04:16.876+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T17:04:16.878+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T17:04:16.881+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T17:04:16.883+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T17:04:16.916+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T17:04:28.510+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     64  0.07s             0           0                                                   0
+================================================================================
+[2024-08-31T17:04:58.784+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     70  0.01s             1           0  0.22s           2024-08-31T17:04:28                      10
+================================================================================
+[2024-08-31T17:05:29.033+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     77  0.01s             1           0  0.10s           2024-08-31T17:04:58                      10
+================================================================================
+[2024-08-31T17:05:59.361+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     84  0.01s             1           0  0.12s           2024-08-31T17:05:29                      10
+================================================================================
+[2024-08-31T17:06:24.467+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T20:08:06.930+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T20:08:06.932+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T20:08:06.933+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T20:08:06.935+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T20:08:06.985+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T20:08:17.270+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     66  0.05s             0           0                                                   0
+================================================================================
+[2024-08-31T20:08:47.523+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     73  0.01s             1           0  0.18s           2024-08-31T20:08:17                      10
+================================================================================
+[2024-08-31T20:09:17.941+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     80  0.01s             1           0  0.18s           2024-08-31T20:08:47                      10
+================================================================================
+[2024-08-31T20:09:45.304+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2024-08-31T20:11:19.924+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2024-08-31T20:11:19.925+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2024-08-31T20:11:19.927+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-08-31T20:11:19.933+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2024-08-31T20:11:19.962+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2024-08-31T20:11:24.164+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     68  0.02s             0           0                                                   0
+================================================================================
+[2024-08-31T20:11:54.420+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     76  0.01s             1           0  0.15s           2024-08-31T20:11:24                      10
+================================================================================
+[2024-08-31T20:12:24.820+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/read_gbq_data.py     83  0.00s             1           0  0.14s           2024-08-31T20:11:54                      10
+================================================================================
+[2024-08-31T20:12:36.841+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

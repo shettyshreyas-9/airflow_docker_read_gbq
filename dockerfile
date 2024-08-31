@@ -1,37 +1,23 @@
-# Dockerfile
-FROM apache/airflow:2.10.0
+# Use an official Python runtime as a parent image
+FROM python:3.8-slim
 
-# USER root
-# RUN pip install --no-cache-dir google-cloud-bigquery
-# USER airflow
-
-# Dockerfile
-
-USER airflow
-# USER root
-RUN mkdir -p /opt/airflow/logs/scheduler && \
-    chown -R airflow:airflow /opt/airflow/logs/scheduler
-
-USER airflow
-
-# Set environment variables
-ENV AIRFLOW_HOME=/opt/airflow
-ENV AIRFLOW_UID=50000
-ENV AIRFLOW_GID=50000
-
-
-
-# Copy the application files
-COPY app.py /opt/airflow/app.py
-COPY requirements.txt /opt/airflow/requirements.txt
-
-# Install Python dependencies
-RUN pip install --no-cache-dir -r /opt/airflow/requirements.txt
-
-EXPOSE 8080
-
-# Set the working directory
+# Set the working directory in the container
 WORKDIR /opt/airflow
 
-# Define the command to run the application
+# Copy the current directory contents into the container
+COPY . .
+
+# Install pip requirements
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install Docker Compose
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && \
+    chmod +x /usr/local/bin/docker-compose
+
+# Make port 8080 available to the world outside this container
+EXPOSE 8080
+
+# Run app.py when the container launches
 CMD ["python", "app.py"]
