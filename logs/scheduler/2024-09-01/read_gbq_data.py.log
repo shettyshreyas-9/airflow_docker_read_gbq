@@ -1,0 +1,21 @@
+[2024-09-01T06:45:38.487+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:45:38.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_gbq_data.py for tasks to queue
+[2024-09-01T06:45:38.490+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:45:38.489+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:45:38.538+0000] {processor.py:925} INFO - DAG(s) 'example_bigquery_dag' retrieved from /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:45:38.811+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:45:38.811+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T06:45:38.828+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:45:38.828+0000] {dag.py:4138} INFO - Setting next_dagrun for example_bigquery_dag to None, run_after=None
+[2024-09-01T06:45:38.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_gbq_data.py took 0.370 seconds
+[2024-09-01T06:46:09.106+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:46:09.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_gbq_data.py for tasks to queue
+[2024-09-01T06:46:09.110+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:46:09.110+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:46:09.131+0000] {processor.py:925} INFO - DAG(s) 'example_bigquery_dag' retrieved from /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:46:09.163+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:46:09.162+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T06:46:09.180+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:46:09.180+0000] {dag.py:4138} INFO - Setting next_dagrun for example_bigquery_dag to None, run_after=None
+[2024-09-01T06:46:09.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_gbq_data.py took 0.100 seconds
+[2024-09-01T06:46:39.405+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:46:39.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/read_gbq_data.py for tasks to queue
+[2024-09-01T06:46:39.410+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:46:39.410+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:46:39.448+0000] {processor.py:925} INFO - DAG(s) 'example_bigquery_dag' retrieved from /opt/airflow/dags/read_gbq_data.py
+[2024-09-01T06:46:39.481+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:46:39.480+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-09-01T06:46:39.495+0000] {logging_mixin.py:190} INFO - [2024-09-01T06:46:39.495+0000] {dag.py:4138} INFO - Setting next_dagrun for example_bigquery_dag to None, run_after=None
+[2024-09-01T06:46:39.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/read_gbq_data.py took 0.120 seconds
